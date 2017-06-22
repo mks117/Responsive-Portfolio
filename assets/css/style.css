@@ -203,19 +203,108 @@ input[type=submit] {
 
 
 @media screen and (max-width: 980px) {
-    #main-container {
-      
+    .main-section {
+      width: 50%;
+      margin-left: 25px;
+    }
+
+    .sidebar {
+      margin-right: 25px;
+    }
+
+    .auth-image {
+      width: 100%;
+    }
+
+    #logo {
+      margin-left: 25px;
+    }
+
+    nav {
+      margin-right: 25px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    #main-container {
-      
+    .main-section {
+      width: 100%;
+      margin-left: 10px;
+      max-width: 625px;
+    }
+
+    .sidebar {
+      width: 100%;
+      margin-left: 10px;
+      float: left;
+      max-width: 625px;
+    }
+
+    .auth-image {
+      width: 50%;
+    }
+
+    #logo {
+      margin-left: 10px;
+    }
+
+    nav {
+      margin-right: 10px;
+    }
+
+    .work:nth-child(odd) {
+      margin-right: 20px;
+    }
+
+    .work:nth-child(even) {
+      margin-right: 20px;
+    }
+
+    .work {
+      width: 45%;
     }
 }
 
 @media screen and (max-width: 640px) {
     #main-container {
-      
+      width: 90%;
+    }
+    #logo {
+      display: block;
+      width: 100%;
+      margin-left: 0px;
+    }
+
+    nav {
+      margin-right: 0px;
+      margin-top: 0px;
+      float: none;
+    }
+
+    nav a {
+      width: 30%;
+      margin-top: 25px;
+      margin-bottom: 20px;
+      padding: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+      text-align: center;
+    }
+
+    .main-section {
+      margin-left: 0px;
+      margin-top: 50px;
+    }
+
+    .sidebar {
+      margin-left: 0px;
+    }
+
+    .auth-image {
+      width: 100%;
+    }
+
+    .work {
+      float: none;
+      width: 100%;
     }
 }
